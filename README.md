@@ -7,7 +7,7 @@ Solução: Foi criada a classe AuxiliaryMethods, onde os métodos readNumber e r
 
 ***2 - GOD CLASS:*** A classe StoreManager também era considerada uma god class, visto que possuia muitas linhas de código e muitos métodos e blocos repetidos, o que tornava o código menos legíveis e de difícil manutenção.
 
-Solução: Aproveitei a classe AuxiliaryFunctions e criei médotos auxiliares, como os que mostram as opções de menu, removendo blocos que ocupavam muitas linhas na classe original. Dessa forma, StoreManager passou de 541 para 287 linhas de código.
+Solução: Aproveitei a classe AuxiliaryMethods e criei médotos auxiliares, como os que mostram as opções de menu, removendo blocos que ocupavam muitas linhas na classe original. Dessa forma, StoreManager passou de 541 para 287 linhas de código.
 
 
 ***3 - NÃO SEI:*** Socorro Deus
