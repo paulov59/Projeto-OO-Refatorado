@@ -10,9 +10,9 @@ Solução: Foi criada a classe AuxiliaryMethods, onde os métodos readNumber e r
 Solução: Aproveitei a classe AuxiliaryMethods e criei médotos auxiliares, como os que mostram as opções de menu, removendo blocos que ocupavam muitas linhas na classe original. Dessa forma, StoreManager passou de 541 para 287 linhas de código.
 
 
-***3 - NÃO SEI:*** Socorro Deus
+***3 - LAZY CLASS:*** A classe People, do pacote people, possuia poucos métodos e era pouco usada no código, sendo considerada uma Lazy Class.
 
-Solução: Chorar no banho!
+Solução: A classe People foi excluída; Client e Employee, que herdavam People, receberam seus métodos e atributos. 
 
 
 ***Código original:*** https://github.com/paulov59/Projeto-OO

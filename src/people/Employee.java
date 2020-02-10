@@ -1,12 +1,15 @@
 package people;
 
-public class Employee extends People {
+public class Employee {
     protected int employeeId;
-    protected double salary;
     protected int sales;
+    protected double salary;
+    protected String name;
+    protected String cpf;
 
     public Employee (String name, String cpf) {
-        super(name, cpf);
+        this.name = name;
+        this.cpf = cpf;
         sales = 0;
     }
 
@@ -26,12 +29,16 @@ public class Employee extends People {
         this.sales--;
     }
 
-    public int getEmployeeId() {
-        return employeeId;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getSalary() {
-        return salary;
+    public String getName() {
+        return name;
+    }
+
+    public String getCpf() {
+        return cpf;
     }
 
     @Override

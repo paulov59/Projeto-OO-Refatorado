@@ -4,7 +4,6 @@ import people.Client;
 import people.Employee;
 import products.*;
 
-import javax.swing.*;
 import java.util.*;
 
 public class Sale {

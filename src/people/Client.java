@@ -1,11 +1,14 @@
 package people;
 
-public class Client extends People {
+public class Client {
     protected int sales;
+    protected String name;
+    protected String cpf;
     protected String address;
 
     public Client(String name, String cpf) {
-        super(name, cpf);
+        this.name = name;
+        this.cpf = cpf;
         this.sales = 0;
     }
 
@@ -21,12 +24,16 @@ public class Client extends People {
         this.sales--;
     }
 
-    public int getSales() {
-        return sales;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getAddress() {
-        return address;
+    public String getName() {
+        return name;
+    }
+
+    public String getCpf() {
+        return cpf;
     }
 
     @Override
